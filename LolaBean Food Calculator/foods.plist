@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Brand</key>
+		<string>Weruva Cats in the Kitchen</string>
+		<key>FoodName</key>
+		<string>The Double Dip</string>
+		<key>Caloriesper100g</key>
+		<string>72.9</string>
+		<key>ImageName</key>
+		<string>CiKDoubleDip</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Weruva Cats in the Kitchen</string>
+		<key>FoodName</key>
+		<string>Lamb Burger-ini</string>
+		<key>Caloriesper100g</key>
+		<string>84.7</string>
+		<key>ImageName</key>
+		<string>CiKLambBurgerini</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Best Feline Friend</string>
+		<key>FoodName</key>
+		<string>Tuna Too Cool</string>
+		<key>Caloriesper100g</key>
+		<string>72.4</string>
+		<key>ImageName</key>
+		<string>BFFTuna</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Best Feline Friend</string>
+		<key>FoodName</key>
+		<string>Tuna &amp; Shrimp Sweethearts</string>
+		<key>Caloriesper100g</key>
+		<string>76.3</string>
+		<key>ImageName</key>
+		<string>BFFShrimp</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Best Feline Friend</string>
+		<key>FoodName</key>
+		<string>Tuna &amp; Salmon Soulmates</string>
+		<key>Caloriesper100g</key>
+		<string>76.3</string>
+		<key>ImageName</key>
+		<string>BFFSalmon</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Best Feline Friend</string>
+		<key>FoodName</key>
+		<string>Tuna &amp; Bonito Be Mine</string>
+		<key>Caloriesper100g</key>
+		<string>75</string>
+		<key>ImageName</key>
+		<string>BFFBonito</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Best Feline Friend</string>
+		<key>FoodName</key>
+		<string>Tuna &amp; Tilapia Twosome</string>
+		<key>Caloriesper100g</key>
+		<string>75</string>
+		<key>ImageName</key>
+		<string>BFFTilapia</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Best Feline Friend</string>
+		<key>FoodName</key>
+		<string>Tuna &amp; Chicken 4-Eva</string>
+		<key>Caloriesper100g</key>
+		<string>76.9</string>
+		<key>ImageName</key>
+		<string>BFFChicken4eva</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Best Feline Friend</string>
+		<key>FoodName</key>
+		<string>Tuna &amp; Chicken Chuckles</string>
+		<key>Caloriesper100g</key>
+		<string>76.3</string>
+		<key>ImageName</key>
+		<string>BFFChickenChuckles</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Tiki Cat</string>
+		<key>FoodName</key>
+		<string>Puka Puka Luau</string>
+		<key>Caloriesper100g</key>
+		<string>107</string>
+		<key>ImageName</key>
+		<string>TCPukaPuka</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Natural Balance</string>
+		<key>FoodName</key>
+		<string>Tuna with Shrimp Canned Cat Formula</string>
+		<key>Caloriesper100g</key>
+		<string>103</string>
+		<key>ImageName</key>
+		<string>NBShrimp</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Natural Balance</string>
+		<key>FoodName</key>
+		<string>Salmon &amp; Green Pea Canned Cat Formula</string>
+		<key>Caloriesper100g</key>
+		<string>114</string>
+		<key>ImageName</key>
+		<string>NBSalmon</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Natural Balance</string>
+		<key>FoodName</key>
+		<string>Venison &amp; Green Pea Canned Cat Formula</string>
+		<key>Caloriesper100g</key>
+		<string>114</string>
+		<key>ImageName</key>
+		<string>NBVenison</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Natural Balance</string>
+		<key>FoodName</key>
+		<string>Duck &amp; Green Pea Canned Cat Formula</string>
+		<key>Caloriesper100g</key>
+		<string>126</string>
+		<key>ImageName</key>
+		<string>NBDuck</string>
+	</dict>
+</array>
+</plist>
