@@ -21,6 +21,11 @@
 		107B808D19C668F60018D327 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107B806F19C668F60018D327 /* UIKit.framework */; };
 		107B809519C668F60018D327 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 107B809319C668F60018D327 /* InfoPlist.strings */; };
 		107B809719C668F60018D327 /* LolaBean_Food_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107B809619C668F60018D327 /* LolaBean_Food_CalculatorTests.m */; };
+		107B80A219C7BC470018D327 /* foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 107B80A119C7BC470018D327 /* foods.plist */; };
+		107B80A419C7C18E0018D327 /* Brands.plist in Resources */ = {isa = PBXBuildFile; fileRef = 107B80A319C7C18E0018D327 /* Brands.plist */; };
+		107B80A719C7D86B0018D327 /* LBFBrandsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107B80A619C7D86B0018D327 /* LBFBrandsTableViewController.m */; };
+		107B80AA19C7D8810018D327 /* LBFTypeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107B80A919C7D8810018D327 /* LBFTypeTableViewController.m */; };
+		107B80AD19C7D9700018D327 /* LBFDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 107B80AC19C7D9700018D327 /* LBFDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +39,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		107B806819C668F60018D327 /* LolaBean Food Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LolaBean Food Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107B806819C668F60018D327 /* LolaBean's Food Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LolaBean's Food Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		107B806B19C668F60018D327 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		107B806D19C668F60018D327 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		107B806F19C668F60018D327 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		107B807319C668F60018D327 /* LolaBean Food Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LolaBean Food Calculator-Info.plist"; sourceTree = "<group>"; };
+		107B807319C668F60018D327 /* LolaBean's Food Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LolaBean's Food Calculator-Info.plist"; sourceTree = "<group>"; };
 		107B807519C668F60018D327 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		107B807719C668F60018D327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		107B807919C668F60018D327 /* LolaBean Food Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LolaBean Food Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		107B807919C668F60018D327 /* LolaBean's Food Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LolaBean's Food Calculator-Prefix.pch"; sourceTree = "<group>"; };
 		107B807A19C668F60018D327 /* LBFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBFAppDelegate.h; sourceTree = "<group>"; };
 		107B807B19C668F60018D327 /* LBFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBFAppDelegate.m; sourceTree = "<group>"; };
 		107B807E19C668F60018D327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		107B808019C668F60018D327 /* LBFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBFViewController.h; sourceTree = "<group>"; };
 		107B808119C668F60018D327 /* LBFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBFViewController.m; sourceTree = "<group>"; };
 		107B808319C668F60018D327 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		107B808919C668F60018D327 /* LolaBean Food CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LolaBean Food CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107B808919C668F60018D327 /* LolaBean's Food CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LolaBean's Food CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		107B808A19C668F60018D327 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		107B809219C668F60018D327 /* LolaBean Food CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LolaBean Food CalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		107B809219C668F60018D327 /* LolaBean's Food CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LolaBean's Food CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		107B809419C668F60018D327 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		107B809619C668F60018D327 /* LolaBean_Food_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LolaBean_Food_CalculatorTests.m; sourceTree = "<group>"; };
+		107B80A119C7BC470018D327 /* foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foods.plist; sourceTree = "<group>"; };
+		107B80A319C7C18E0018D327 /* Brands.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Brands.plist; sourceTree = "<group>"; };
+		107B80A519C7D86B0018D327 /* LBFBrandsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFBrandsTableViewController.h; sourceTree = "<group>"; };
+		107B80A619C7D86B0018D327 /* LBFBrandsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFBrandsTableViewController.m; sourceTree = "<group>"; };
+		107B80A819C7D8810018D327 /* LBFTypeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFTypeTableViewController.h; sourceTree = "<group>"; };
+		107B80A919C7D8810018D327 /* LBFTypeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFTypeTableViewController.m; sourceTree = "<group>"; };
+		107B80AB19C7D9700018D327 /* LBFDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFDataManager.h; sourceTree = "<group>"; };
+		107B80AC19C7D9700018D327 /* LBFDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +105,8 @@
 		107B806919C668F60018D327 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				107B806819C668F60018D327 /* LolaBean Food Calculator.app */,
-				107B808919C668F60018D327 /* LolaBean Food CalculatorTests.xctest */,
+				107B806819C668F60018D327 /* LolaBean's Food Calculator.app */,
+				107B808919C668F60018D327 /* LolaBean's Food CalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,13 +125,20 @@
 		107B807119C668F60018D327 /* LolaBean Food Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				107B80A019C7BC200018D327 /* PLists */,
 				107B807A19C668F60018D327 /* LBFAppDelegate.h */,
 				107B807B19C668F60018D327 /* LBFAppDelegate.m */,
 				107B807D19C668F60018D327 /* Main.storyboard */,
+				107B80A519C7D86B0018D327 /* LBFBrandsTableViewController.h */,
+				107B80A619C7D86B0018D327 /* LBFBrandsTableViewController.m */,
+				107B80A819C7D8810018D327 /* LBFTypeTableViewController.h */,
+				107B80A919C7D8810018D327 /* LBFTypeTableViewController.m */,
 				107B808019C668F60018D327 /* LBFViewController.h */,
 				107B808119C668F60018D327 /* LBFViewController.m */,
 				107B808319C668F60018D327 /* Images.xcassets */,
 				107B807219C668F60018D327 /* Supporting Files */,
+				107B80AB19C7D9700018D327 /* LBFDataManager.h */,
+				107B80AC19C7D9700018D327 /* LBFDataManager.m */,
 			);
 			path = "LolaBean Food Calculator";
 			sourceTree = "<group>";
@@ -126,10 +146,10 @@
 		107B807219C668F60018D327 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				107B807319C668F60018D327 /* LolaBean Food Calculator-Info.plist */,
+				107B807319C668F60018D327 /* LolaBean's Food Calculator-Info.plist */,
 				107B807419C668F60018D327 /* InfoPlist.strings */,
 				107B807719C668F60018D327 /* main.m */,
-				107B807919C668F60018D327 /* LolaBean Food Calculator-Prefix.pch */,
+				107B807919C668F60018D327 /* LolaBean's Food Calculator-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,18 +166,27 @@
 		107B809119C668F60018D327 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				107B809219C668F60018D327 /* LolaBean Food CalculatorTests-Info.plist */,
+				107B809219C668F60018D327 /* LolaBean's Food CalculatorTests-Info.plist */,
 				107B809319C668F60018D327 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		107B80A019C7BC200018D327 /* PLists */ = {
+			isa = PBXGroup;
+			children = (
+				107B80A119C7BC470018D327 /* foods.plist */,
+				107B80A319C7C18E0018D327 /* Brands.plist */,
+			);
+			name = PLists;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		107B806719C668F60018D327 /* LolaBean Food Calculator */ = {
+		107B806719C668F60018D327 /* LolaBean's Food Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 107B809A19C668F60018D327 /* Build configuration list for PBXNativeTarget "LolaBean Food Calculator" */;
+			buildConfigurationList = 107B809A19C668F60018D327 /* Build configuration list for PBXNativeTarget "LolaBean's Food Calculator" */;
 			buildPhases = (
 				107B806419C668F60018D327 /* Sources */,
 				107B806519C668F60018D327 /* Frameworks */,
@@ -167,14 +196,14 @@
 			);
 			dependencies = (
 			);
-			name = "LolaBean Food Calculator";
+			name = "LolaBean's Food Calculator";
 			productName = "LolaBean Food Calculator";
-			productReference = 107B806819C668F60018D327 /* LolaBean Food Calculator.app */;
+			productReference = 107B806819C668F60018D327 /* LolaBean's Food Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		107B808819C668F60018D327 /* LolaBean Food CalculatorTests */ = {
+		107B808819C668F60018D327 /* LolaBean's Food CalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 107B809D19C668F60018D327 /* Build configuration list for PBXNativeTarget "LolaBean Food CalculatorTests" */;
+			buildConfigurationList = 107B809D19C668F60018D327 /* Build configuration list for PBXNativeTarget "LolaBean's Food CalculatorTests" */;
 			buildPhases = (
 				107B808519C668F60018D327 /* Sources */,
 				107B808619C668F60018D327 /* Frameworks */,
@@ -185,9 +214,9 @@
 			dependencies = (
 				107B808F19C668F60018D327 /* PBXTargetDependency */,
 			);
-			name = "LolaBean Food CalculatorTests";
+			name = "LolaBean's Food CalculatorTests";
 			productName = "LolaBean Food CalculatorTests";
-			productReference = 107B808919C668F60018D327 /* LolaBean Food CalculatorTests.xctest */;
+			productReference = 107B808919C668F60018D327 /* LolaBean's Food CalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 107B806319C668F60018D327 /* Build configuration list for PBXProject "LolaBean Food Calculator" */;
+			buildConfigurationList = 107B806319C668F60018D327 /* Build configuration list for PBXProject "LolaBean's Food Calculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +247,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				107B806719C668F60018D327 /* LolaBean Food Calculator */,
-				107B808819C668F60018D327 /* LolaBean Food CalculatorTests */,
+				107B806719C668F60018D327 /* LolaBean's Food Calculator */,
+				107B808819C668F60018D327 /* LolaBean's Food CalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,8 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				107B80A219C7BC470018D327 /* foods.plist in Resources */,
 				107B808419C668F60018D327 /* Images.xcassets in Resources */,
 				107B807619C668F60018D327 /* InfoPlist.strings in Resources */,
+				107B80A419C7C18E0018D327 /* Brands.plist in Resources */,
 				107B807F19C668F60018D327 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,8 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				107B80AA19C7D8810018D327 /* LBFTypeTableViewController.m in Sources */,
 				107B807819C668F60018D327 /* main.m in Sources */,
 				107B808219C668F60018D327 /* LBFViewController.m in Sources */,
+				107B80A719C7D86B0018D327 /* LBFBrandsTableViewController.m in Sources */,
+				107B80AD19C7D9700018D327 /* LBFDataManager.m in Sources */,
 				107B807C19C668F60018D327 /* LBFAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +303,7 @@
 /* Begin PBXTargetDependency section */
 		107B808F19C668F60018D327 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 107B806719C668F60018D327 /* LolaBean Food Calculator */;
+			target = 107B806719C668F60018D327 /* LolaBean's Food Calculator */;
 			targetProxy = 107B808E19C668F60018D327 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -380,9 +414,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LolaBean Food Calculator/LolaBean Food Calculator-Prefix.pch";
-				INFOPLIST_FILE = "LolaBean Food Calculator/LolaBean Food Calculator-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LolaBean Food Calculator/LolaBean's Food Calculator-Prefix.pch";
+				INFOPLIST_FILE = "LolaBean Food Calculator/LolaBean's Food Calculator-Info.plist";
+				PRODUCT_NAME = "LolaBean's Food Calculator";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,9 +427,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LolaBean Food Calculator/LolaBean Food Calculator-Prefix.pch";
-				INFOPLIST_FILE = "LolaBean Food Calculator/LolaBean Food Calculator-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LolaBean Food Calculator/LolaBean's Food Calculator-Prefix.pch";
+				INFOPLIST_FILE = "LolaBean Food Calculator/LolaBean's Food Calculator-Info.plist";
+				PRODUCT_NAME = "LolaBean's Food Calculator";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -415,8 +449,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "LolaBean Food CalculatorTests/LolaBean Food CalculatorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "LolaBean Food CalculatorTests/LolaBean's Food CalculatorTests-Info.plist";
+				PRODUCT_NAME = "LolaBean's Food CalculatorTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -433,8 +467,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LolaBean Food Calculator/LolaBean Food Calculator-Prefix.pch";
-				INFOPLIST_FILE = "LolaBean Food CalculatorTests/LolaBean Food CalculatorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "LolaBean Food CalculatorTests/LolaBean's Food CalculatorTests-Info.plist";
+				PRODUCT_NAME = "LolaBean's Food CalculatorTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -443,7 +477,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		107B806319C668F60018D327 /* Build configuration list for PBXProject "LolaBean Food Calculator" */ = {
+		107B806319C668F60018D327 /* Build configuration list for PBXProject "LolaBean's Food Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				107B809819C668F60018D327 /* Debug */,
@@ -452,7 +486,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		107B809A19C668F60018D327 /* Build configuration list for PBXNativeTarget "LolaBean Food Calculator" */ = {
+		107B809A19C668F60018D327 /* Build configuration list for PBXNativeTarget "LolaBean's Food Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				107B809B19C668F60018D327 /* Debug */,
@@ -460,7 +494,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		107B809D19C668F60018D327 /* Build configuration list for PBXNativeTarget "LolaBean Food CalculatorTests" */ = {
+		107B809D19C668F60018D327 /* Build configuration list for PBXNativeTarget "LolaBean's Food CalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				107B809E19C668F60018D327 /* Debug */,
