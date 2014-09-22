@@ -16,6 +16,16 @@
 		<key>Brand</key>
 		<string>Weruva Cats in the Kitchen</string>
 		<key>FoodName</key>
+		<string>Chicken Frick &apos;A Zee</string>
+		<key>Caloriesper100g</key>
+		<string>86.4</string>
+		<key>ImageName</key>
+		<string>CiKChickenFrick</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Weruva Cats in the Kitchen</string>
+		<key>FoodName</key>
 		<string>Lamb Burger-ini</string>
 		<key>Caloriesper100g</key>
 		<string>84.7</string>
@@ -141,6 +151,26 @@
 		<string>126</string>
 		<key>ImageName</key>
 		<string>NBDuck</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Weruva Truluxe</string>
+		<key>FoodName</key>
+		<string>Glam &apos;n Punk</string>
+		<key>Caloriesper100g</key>
+		<string>136</string>
+		<key>ImageName</key>
+		<string>WeruvaGlam</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Weruva Truluxe</string>
+		<key>FoodName</key>
+		<string>Meow me a river</string>
+		<key>Caloriesper100g</key>
+		<string>59.4</string>
+		<key>ImageName</key>
+		<string>WeruvaMeow</string>
 	</dict>
 </array>
 </plist>

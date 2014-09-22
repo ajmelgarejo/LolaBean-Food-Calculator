@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "107B806719C668F60018D327"
-               BuildableName = "LolaBean Food Calculator.app"
+               BuildableName = "LolaBean&apos;s Food Calculator.app"
                BlueprintName = "LolaBean&apos;s Food Calculator"
                ReferencedContainer = "container:LolaBean&apos;s Food Calculator.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "107B808819C668F60018D327"
-               BuildableName = "LolaBean Food CalculatorTests.xctest"
+               BuildableName = "LolaBean&apos;s Food CalculatorTests.xctest"
                BlueprintName = "LolaBean&apos;s Food CalculatorTests"
                ReferencedContainer = "container:LolaBean&apos;s Food Calculator.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "107B806719C668F60018D327"
-            BuildableName = "LolaBean Food Calculator.app"
+            BuildableName = "LolaBean&apos;s Food Calculator.app"
             BlueprintName = "LolaBean&apos;s Food Calculator"
             ReferencedContainer = "container:LolaBean&apos;s Food Calculator.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "107B806719C668F60018D327"
-            BuildableName = "LolaBean Food Calculator.app"
+            BuildableName = "LolaBean&apos;s Food Calculator.app"
             BlueprintName = "LolaBean&apos;s Food Calculator"
             ReferencedContainer = "container:LolaBean&apos;s Food Calculator.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "107B806719C668F60018D327"
-            BuildableName = "LolaBean Food Calculator.app"
+            BuildableName = "LolaBean&apos;s Food Calculator.app"
             BlueprintName = "LolaBean&apos;s Food Calculator"
             ReferencedContainer = "container:LolaBean&apos;s Food Calculator.xcodeproj">
          </BuildableReference>
