@@ -10,22 +10,26 @@
 	<string>LolaBean's Food Calculator</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>1D57AB5F2AA463268F6DB95870C88FDC24DDF3B5</key>
+		<string>https://github.com/ajmelgarejo/LolaBean-Food-Calculator.git</string>
 		<key>F67137E0-3C1A-45F5-8441-3A93612BE462</key>
 		<string>https://github.com/ajmelgarejo/LolaBean-Food-Calculator.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>LolaBean's Food Calculator.xcodeproj/project.xcworkspace</string>
+	<string>LolaBean's Food Calculator.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F67137E0-3C1A-45F5-8441-3A93612BE462</key>
+		<key>1D57AB5F2AA463268F6DB95870C88FDC24DDF3B5</key>
 		<string>../..</string>
+		<key>F67137E0-3C1A-45F5-8441-3A93612BE462</key>
+		<string>../../../LolaBean Food Calculator</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ajmelgarejo/LolaBean-Food-Calculator.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F67137E0-3C1A-45F5-8441-3A93612BE462</string>
+	<string>1D57AB5F2AA463268F6DB95870C88FDC24DDF3B5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>F67137E0-3C1A-45F5-8441-3A93612BE462</string>
 			<key>IDESourceControlWCCName</key>
 			<string>LolaBean Food Calculator</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1D57AB5F2AA463268F6DB95870C88FDC24DDF3B5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LolaBean%20Food%20Calculator</string>
 		</dict>
 	</array>
 </dict>
