@@ -50,6 +50,7 @@
     _justonefood = false;
     _food1calories = 0;
     _food2calories = 0;
+    _totalweight = 0;
     [[self ImageFood1] setImage:[UIImage imageNamed:@"generic_can"]];
     [[self ImageFood2] setImage:[UIImage imageNamed:@"generic_can"]];
     [[self ImageFood2] setHidden:true];
@@ -116,6 +117,8 @@
         _food2amount = 0;
         [_txtAmountFed2 setText:@"0"];
         _food2calories = 0;
+        _totalweight = 0;
+        [_txtTotalWeight setText:@""];
         [_buttonBrand2 setTitle:@"Brand" forState:UIControlStateNormal];
         [_buttonType2 setTitle:@"Type" forState:UIControlStateNormal];
         [[self ImageFood2] setImage:[UIImage imageNamed:@"generic_can"]];
@@ -146,9 +149,14 @@
         {
             _food2amount = (_calorygoal - _food1amount / 100 * _food1calories)/_food2calories * 100;
             [_txtAmountFed2 setText:[_numberFormatter stringFromNumber:[NSNumber numberWithDouble:_food2amount]]];
+            _totalweight = _food1amount + _food2amount;
+            [_txtTotalWeight setText:[_numberFormatter stringFromNumber:[NSNumber numberWithDouble:_totalweight]]];
         }
         else
+        {
             [_txtAmountFed2 setText:@""];
+            [_txtTotalWeight setText:@""];
+        }
     }
 
 }
@@ -166,6 +174,9 @@
     [[self buttonBrand2] setHidden:true];
     [[self buttonType2] setHidden:true];
     [[self labelType2] setHidden:true];
+    [[self labelTotalWeight] setHidden:true];
+    [[self txtTotalWeight] setHidden:true];
+
 }
 
 
@@ -181,6 +192,8 @@
     [[self buttonBrand2] setHidden:false];
     [[self buttonType2] setHidden:false];
     [[self labelType2] setHidden:false];
+    [[self labelTotalWeight] setHidden:false];
+    [[self txtTotalWeight] setHidden:false];
 }
 
 - (void) didSelectBrand:(NSString *)brand

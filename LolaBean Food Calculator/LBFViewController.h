@@ -29,6 +29,8 @@
 @property CGFloat food2amount;
 @property CGFloat food1calories;
 @property CGFloat food2calories;
+@property CGFloat totalweight;
+
 @property BOOL justonefood;
 
 @property int activebutton;
@@ -46,5 +48,7 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *buttonBrand2;
 @property (weak, nonatomic) IBOutlet UILabel *labelType2;
+@property (weak, nonatomic) IBOutlet UILabel *labelTotalWeight;
+@property (weak, nonatomic) IBOutlet UITextField *txtTotalWeight;
 
 @end
