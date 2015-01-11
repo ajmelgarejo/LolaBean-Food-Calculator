@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		104F472F1A621320000C778B /* Main_Iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104F472E1A621320000C778B /* Main_Iphone.storyboard */; };
 		107B806C19C668F60018D327 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107B806B19C668F60018D327 /* Foundation.framework */; };
 		107B806E19C668F60018D327 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107B806D19C668F60018D327 /* CoreGraphics.framework */; };
 		107B807019C668F60018D327 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107B806F19C668F60018D327 /* UIKit.framework */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		104F472E1A621320000C778B /* Main_Iphone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_Iphone.storyboard; path = ../Main_Iphone.storyboard; sourceTree = "<group>"; };
 		107B806819C668F60018D327 /* LolaBean's Food Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LolaBean's Food Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		107B806B19C668F60018D327 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		107B806D19C668F60018D327 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +130,7 @@
 				107B80A019C7BC200018D327 /* PLists */,
 				107B807A19C668F60018D327 /* LBFAppDelegate.h */,
 				107B807B19C668F60018D327 /* LBFAppDelegate.m */,
+				104F472E1A621320000C778B /* Main_Iphone.storyboard */,
 				107B807D19C668F60018D327 /* Main.storyboard */,
 				107B80A519C7D86B0018D327 /* LBFBrandsTableViewController.h */,
 				107B80A619C7D86B0018D327 /* LBFBrandsTableViewController.m */,
@@ -229,6 +232,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Beans;
 				TargetAttributes = {
+					107B806719C668F60018D327 = {
+						DevelopmentTeam = FPHGX9L9CR;
+					};
 					107B808819C668F60018D327 = {
 						TestTargetID = 107B806719C668F60018D327;
 					};
@@ -260,6 +266,7 @@
 			files = (
 				107B80A219C7BC470018D327 /* foods.plist in Resources */,
 				107B808419C668F60018D327 /* Images.xcassets in Resources */,
+				104F472F1A621320000C778B /* Main_Iphone.storyboard in Resources */,
 				107B807619C668F60018D327 /* InfoPlist.strings in Resources */,
 				107B80A419C7C18E0018D327 /* Brands.plist in Resources */,
 				107B807F19C668F60018D327 /* Main.storyboard in Resources */,
@@ -413,10 +420,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LolaBean Food Calculator/LolaBean's Food Calculator-Prefix.pch";
 				INFOPLIST_FILE = "LolaBean Food Calculator/LolaBean's Food Calculator-Info.plist";
 				PRODUCT_NAME = "LolaBean's Food Calculator";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -426,10 +437,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LolaBean Food Calculator/LolaBean's Food Calculator-Prefix.pch";
 				INFOPLIST_FILE = "LolaBean Food Calculator/LolaBean's Food Calculator-Info.plist";
 				PRODUCT_NAME = "LolaBean's Food Calculator";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -493,6 +508,7 @@
 				107B809C19C668F60018D327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		107B809D19C668F60018D327 /* Build configuration list for PBXNativeTarget "LolaBean's Food CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +517,7 @@
 				107B809F19C668F60018D327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

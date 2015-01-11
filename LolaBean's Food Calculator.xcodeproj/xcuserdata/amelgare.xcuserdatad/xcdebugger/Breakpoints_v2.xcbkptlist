@@ -68,11 +68,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LolaBean Food Calculator/LBFViewController.m"
-            timestampString = "442632988.053165"
+            timestampString = "442640297.892847"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
             landmarkName = "-displayFoods"
             landmarkType = "5">
          </BreakpointContent>
@@ -84,11 +84,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LolaBean Food Calculator/LBFViewController.m"
-            timestampString = "442634067.97711"
+            timestampString = "442640297.892847"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "265"
-            endingLineNumber = "265"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
             landmarkName = "-didChangeFoodFed1:"
             landmarkType = "5">
          </BreakpointContent>

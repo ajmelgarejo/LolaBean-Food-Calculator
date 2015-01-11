@@ -1,6 +1,55 @@
 {
   "images" : [
     {
+      "idiom" : "iphone",
+      "size" : "29x29",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "29x29",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "29x29",
+      "scale" : "3x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "LolaEating_40x2-1.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "LolaEating_76x2-1.png",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "57x57",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "57x57",
+      "scale" : "2x"
+    },
+    {
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "LolaEating copy.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "LolaEating copy-1.png",
+      "scale" : "3x"
+    },
+    {
       "size" : "29x29",
       "idiom" : "ipad",
       "filename" : "LolaEating_29.png",
@@ -25,6 +74,26 @@
       "scale" : "2x"
     },
     {
+      "idiom" : "ipad",
+      "size" : "50x50",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "50x50",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "72x72",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "72x72",
+      "scale" : "2x"
+    },
+    {
       "size" : "76x76",
       "idiom" : "ipad",
       "filename" : "LolaEating_76.png",
@@ -35,6 +104,11 @@
       "idiom" : "ipad",
       "filename" : "LolaEating_76x2.png",
       "scale" : "2x"
+    },
+    {
+      "idiom" : "car",
+      "size" : "120x120",
+      "scale" : "1x"
     }
   ],
   "info" : {

@@ -56,6 +56,8 @@
     [[self ImageFood2] setHidden:true];
     [_labelCarbPerc setHidden:true];
     [_labelCarbTitle setHidden:true];
+    [_buttonType1 setEnabled:false];
+
     
 }
 
@@ -210,6 +212,7 @@
         [[self ImageFood1] setImage:[UIImage imageNamed:@"generic_can"]];
         [_labelCarbTitle setHidden:true];
         [_labelCarbPerc setHidden:true];
+        [_buttonType1 setEnabled:true];
     }
     else{
         [self setSelectedBrand2:brand];
@@ -271,6 +274,13 @@
         }
     }
     [self displayFoods];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    if (textField == _txtCaloryGoal) {
+        [textField resignFirstResponder];
+    }
+    return NO;
 }
 
 @end

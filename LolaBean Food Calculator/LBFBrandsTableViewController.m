@@ -43,7 +43,10 @@
 
 - (void)viewWillLayoutSubviews{
     [super viewWillLayoutSubviews];
-    self.view.superview.bounds = CGRectMake(0, 0, 400, 340);
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+    {
+        self.view.superview.bounds = CGRectMake(0, 0, 400, 340);
+    }
 }
 #pragma mark - Table view data source
 
