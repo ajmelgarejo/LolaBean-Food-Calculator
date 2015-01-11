@@ -3,6 +3,8 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>Carbs</key>
+		<string>10%</string>
 		<key>Brand</key>
 		<string>Weruva Cats in the Kitchen</string>
 		<key>FoodName</key>
@@ -13,6 +15,8 @@
 		<string>CiKDoubleDip</string>
 	</dict>
 	<dict>
+		<key>Carbs</key>
+		<string>3%</string>
 		<key>Brand</key>
 		<string>Weruva Cats in the Kitchen</string>
 		<key>FoodName</key>
@@ -23,6 +27,8 @@
 		<string>CiKChickenFrick</string>
 	</dict>
 	<dict>
+		<key>Carbs</key>
+		<string>10%</string>
 		<key>Brand</key>
 		<string>Weruva Cats in the Kitchen</string>
 		<key>FoodName</key>
@@ -33,6 +39,8 @@
 		<string>CiKLambBurgerini</string>
 	</dict>
 	<dict>
+		<key>Carbs</key>
+		<string>5%</string>
 		<key>Brand</key>
 		<string>Weruva Cats in the Kitchen</string>
 		<key>FoodName</key>
@@ -43,6 +51,8 @@
 		<string>CiKKittyGoneWild</string>
 	</dict>
 	<dict>
+		<key>Carbs</key>
+		<string>6%</string>
 		<key>Brand</key>
 		<string>Weruva Cats in the Kitchen</string>
 		<key>FoodName</key>
@@ -63,6 +73,8 @@
 		<string>BFFTuna</string>
 	</dict>
 	<dict>
+		<key>Carbs</key>
+		<string>2%</string>
 		<key>Brand</key>
 		<string>Best Feline Friend</string>
 		<key>FoodName</key>
@@ -73,6 +85,8 @@
 		<string>BFFShrimp</string>
 	</dict>
 	<dict>
+		<key>Carbs</key>
+		<string>3%</string>
 		<key>Brand</key>
 		<string>Best Feline Friend</string>
 		<key>FoodName</key>
@@ -83,6 +97,8 @@
 		<string>BFFSalmon</string>
 	</dict>
 	<dict>
+		<key>Carbs</key>
+		<string>2%</string>
 		<key>Brand</key>
 		<string>Best Feline Friend</string>
 		<key>FoodName</key>
@@ -93,6 +109,8 @@
 		<string>BFFBonito</string>
 	</dict>
 	<dict>
+		<key>Carbs</key>
+		<string>2%</string>
 		<key>Brand</key>
 		<string>Best Feline Friend</string>
 		<key>FoodName</key>
@@ -103,6 +121,8 @@
 		<string>BFFTilapia</string>
 	</dict>
 	<dict>
+		<key>Carbs</key>
+		<string>2%</string>
 		<key>Brand</key>
 		<string>Best Feline Friend</string>
 		<key>FoodName</key>
@@ -113,6 +133,8 @@
 		<string>BFFChicken4eva</string>
 	</dict>
 	<dict>
+		<key>Carbs</key>
+		<string>2%</string>
 		<key>Brand</key>
 		<string>Best Feline Friend</string>
 		<key>FoodName</key>
@@ -123,6 +145,8 @@
 		<string>BFFChickenChuckles</string>
 	</dict>
 	<dict>
+		<key>Carbs</key>
+		<string>0%</string>
 		<key>Brand</key>
 		<string>Tiki Cat</string>
 		<key>FoodName</key>
@@ -143,6 +167,8 @@
 		<string>NBShrimp</string>
 	</dict>
 	<dict>
+		<key>Carbs</key>
+		<string>15%</string>
 		<key>Brand</key>
 		<string>Natural Balance</string>
 		<key>FoodName</key>
@@ -153,6 +179,8 @@
 		<string>NBSalmon</string>
 	</dict>
 	<dict>
+		<key>Carbs</key>
+		<string>15%</string>
 		<key>Brand</key>
 		<string>Natural Balance</string>
 		<key>FoodName</key>
@@ -163,6 +191,8 @@
 		<string>NBVenison</string>
 	</dict>
 	<dict>
+		<key>Carbs</key>
+		<string>22%</string>
 		<key>Brand</key>
 		<string>Natural Balance</string>
 		<key>FoodName</key>
@@ -191,6 +221,42 @@
 		<string>59.4</string>
 		<key>ImageName</key>
 		<string>WeruvaMeow</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Wellness Core</string>
+		<key>FoodName</key>
+		<string>Beef venison and lamb formula</string>
+		<key>Caloriesper100g</key>
+		<string>134.6</string>
+		<key>ImageName</key>
+		<string>WCBeef</string>
+		<key>Carbs</key>
+		<string>7%</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Wellness Core</string>
+		<key>FoodName</key>
+		<string>Salmon, whitefish and herring formula</string>
+		<key>Caloriesper100g</key>
+		<string>123.1</string>
+		<key>ImageName</key>
+		<string>WCSalmon</string>
+		<key>Carbs</key>
+		<string>17%</string>
+	</dict>
+	<dict>
+		<key>Brand</key>
+		<string>Wellness</string>
+		<key>FoodName</key>
+		<string>Beef and chicken Recipe</string>
+		<key>Caloriesper100g</key>
+		<string>123.7</string>
+		<key>ImageName</key>
+		<string>WellnessBeefChicken</string>
+		<key>Carbs</key>
+		<string>6%</string>
 	</dict>
 </array>
 </plist>
