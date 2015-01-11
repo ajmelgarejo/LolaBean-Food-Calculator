@@ -51,4 +51,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *labelTotalWeight;
 @property (weak, nonatomic) IBOutlet UITextField *txtTotalWeight;
 
+@property (weak, nonatomic) IBOutlet UILabel *labelCarbTitle;
+@property (weak, nonatomic) IBOutlet UILabel *labelCarbPerc;
 @end

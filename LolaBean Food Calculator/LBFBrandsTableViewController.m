@@ -43,7 +43,7 @@
 
 - (void)viewWillLayoutSubviews{
     [super viewWillLayoutSubviews];
-    self.view.superview.bounds = CGRectMake(0, 0, 400, 250);
+    self.view.superview.bounds = CGRectMake(0, 0, 400, 340);
 }
 #pragma mark - Table view data source
 

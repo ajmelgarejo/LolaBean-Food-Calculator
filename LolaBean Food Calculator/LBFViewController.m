@@ -54,6 +54,8 @@
     [[self ImageFood1] setImage:[UIImage imageNamed:@"generic_can"]];
     [[self ImageFood2] setImage:[UIImage imageNamed:@"generic_can"]];
     [[self ImageFood2] setHidden:true];
+    [_labelCarbPerc setHidden:true];
+    [_labelCarbTitle setHidden:true];
     
 }
 
@@ -206,6 +208,8 @@
         [_buttonType1 setTitle:@"Type" forState:UIControlStateNormal];
         _food1calories = 0;
         [[self ImageFood1] setImage:[UIImage imageNamed:@"generic_can"]];
+        [_labelCarbTitle setHidden:true];
+        [_labelCarbPerc setHidden:true];
     }
     else{
         [self setSelectedBrand2:brand];
@@ -229,7 +233,18 @@
                 _food1amount = _calorygoal/_food1calories * 100;
                 [_txtAmountFed1 setText:[_numberFormatter stringFromNumber:[NSNumber numberWithDouble:_food1amount]]];
             }
-        
+        if([type objectForKey:@"Carbs"] != nil)
+        {
+            [_labelCarbTitle setHidden:false];
+            [_labelCarbPerc setHidden:false];
+            [_labelCarbPerc setText:[type objectForKey:@"Carbs"]];
+        }
+        else
+        {
+            [_labelCarbTitle setHidden:true];
+            [_labelCarbPerc setHidden:true];
+        }
+            
     }
 
     if (_activebutton == 2)
